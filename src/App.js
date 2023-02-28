@@ -1,7 +1,18 @@
- import React from 'react';
+import React from "react";
+
+import "./App.css";
 
 const App = () => {
-  return <h1>A React App!</h1>;
+  return (
+    <div className="course-goals">
+      <h2>Course Goals</h2>
+      <ul className="goal-list">
+        <li>Finish the Course</li>
+        <li>Learn all about the Course main topic</li>
+        <li>Help other students in the course Q&amp;A</li>
+      </ul>
+    </div>
+  );
 };
 
 export default App;
